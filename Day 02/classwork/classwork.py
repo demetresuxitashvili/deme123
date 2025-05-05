@@ -13,10 +13,10 @@ print(25 + 10) #output: 35
 print(25 - 10) #Output: 25
 
 # * გამრავლება -- multiplication
-print(5 * 5) output: 25
+print(5 * 5) #output: 25
 
 # / გაყოფა -- Division
-print(10 / 2) -- output: 5
+print(10 / 2) #-- output: 5
 
 # როდესაც ორ ინტეჯერს ვყოფთ, ამ გაყოფის შედეგი ყოველთვის იქნება Float.
 
