@@ -12,14 +12,15 @@ else:
 
 
 
-number = 0
+age = 0
 
 while number <= 0:
     number = int(input("enter your age:"))
+
     if number <= 0:
         print("enter your age again:!")
         
-print("thanks!:", number)
+print("finish", number)
 
 
 
