@@ -1,9 +1,7 @@
-fruit = ["ვაშლი", "ფორთოხალი", "ყურძენი", "ატამი", "მსხალი"]
-print(fruit)
+# indexing-ი ეწოდება კოდის რიცხვით დასახელებას და განმეორებას
 
+# ბანანს რადგან ბანანზე არ შეხებულა ინდექსით და დაპრინტა ბანანის სახელ წოდება
 
-#             0         1          2          3            
-braiont = ["tumg", "cappucino", "mateo", "balerina"]
-print(braiont[0], braiont[3])
-
+sentence = "GOA is the best"
+print(sentence[0], sentence[1], sentence[2])
 
