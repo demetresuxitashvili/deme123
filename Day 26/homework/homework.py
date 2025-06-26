@@ -11,8 +11,9 @@ print(User_info[3])
 
 weding_machine = ["mango", "grape", "aplle", "cocont", "carrot", "tomato", "water melon", "chery", "melon", "Stawbery"]
 print(weding_machine)
-x = int(input("ჩაწერეთ ხილის ინდექსი რომელიც გინდათ: "))
-print(weding_machine[x])
+x = int(input("ჩაწერეთ რამე რიცხვი და მიიღე საჩუქარი: "))
+print(weding_machine[x]) 
+
 
 Fruits = ["Strawberry", "Mango", "Melon", "Cherry"]
 Fruits[3] = "water melon"
