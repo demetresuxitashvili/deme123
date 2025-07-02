@@ -5,3 +5,4 @@
 sentence = "GOA is the best"
 print(sentence[0], sentence[1], sentence[2])
 
+# რადგან სტრინგები შუცვლელია

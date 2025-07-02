@@ -7,7 +7,7 @@ while True:
     
     if repeat_password == original_password:
         print("პაროლი დაემთხვა!")
-        break
+        
     else:
         print("პაროლი არ დაემთხვა, სცადეთ კიდევ ერთხელ.")
 
