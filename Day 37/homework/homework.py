@@ -31,7 +31,6 @@ num = 0
 user_num = int(input("enter a number: "))
 
 while user_num != 0:
-    
     print("incorrect number try again")
     user_num = int(input("enter a number: "))
     num += user_num
