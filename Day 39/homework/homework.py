@@ -19,8 +19,8 @@ print(str3.capitalize())
 
 # ცვლადში შეინახე შენი სახელი. მომხმარებელს შეეკითხე თავისი სახელი, იმ შემთხვევაში თუ თქვენი სახელები ემთხვევა დაბეჭდეთ "Our names are similar!", თუ არ ემთხვევა დაბეჭდეთ "We have different names". გაითვალისწინეთ, რომ მომხმარებელმა შეიძლება თქვენნაირი სახელი შემოიტანოს, თუმცა სახელის ასოები შესაძლოა იყოს სხვადასხვა შრიფტის ზომით, ამიტომ ამან თქვენ პროგრამაში შეფერხება არ უნდა გამოიწვიოს (გამოიყენეთ ნასწავლი სტრინგის მეთოდები)
 
-sukhita = "deme" .capitalize()
-user_name = input("enter a name: ")
+sukhita = "deme" 
+user_name = input("enter a name: ").capitalize()
 
 if sukhita == user_name:
     print("Our names are similar!")
