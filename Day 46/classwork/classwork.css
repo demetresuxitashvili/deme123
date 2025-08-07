@@ -1,0 +1,47 @@
+/* 1) საიტზე დაამატეთ 3 სხვადასხვა პარაგრაფი. Google fonts-იდან თქვენი CSS-ის ფაილში დააიმპორტეთ თქვენთვის სასურველი 3 განსხვავებული შრიფტის სტილი და სამივე პარაგრაფს გაუწერეთ. */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&family=Oswald:wght@200..700&display=swap');
+
+#box-1{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+#box-2{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+}
+
+#box-3{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+/* 2) შექმენით საიტი, სადაც დაამატებთ nav tag-ს. nav tag-ში ჩააშენეთ 4 ლინკი. ლინკებს მოაშორეთ default ხაზგასმა და გაუწერეთ ლურჯი ფერი. გამოიყენეთ Pseudo-selector-ები და:
+ლინკზე მაუსის გადატარებისას მას მიანიჭეთ წითელი ფერი, გაუზარდეთ Font-size და გაამუქეთ ტექსტი font-weight-ის გამოყენებით.
+ლინკებმა დაკლიკებისას მიიღონ შავი ფერი.
+ლინკებზე გადასვლის შემდეგ ისინი უნდა გახდნენ იასამნისფერი ფერის და ჰქონდეთ default font-weight მნიშვნელობა */
+a{
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    color: red;
+    font-size: medium;
+    font-weight: 800;
+}
+
+a:active{
+    color: black;
+}
+
+a:link{
+    color: purple;
+    font-weight: bold;
+}
