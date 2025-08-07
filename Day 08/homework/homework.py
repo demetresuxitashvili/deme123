@@ -1,4 +1,4 @@
-user_age = input("your age")
+user_age = input("enter your age: ")
 print(f"you are {user_age} age")
 
 Num1 = input("enter number")
