@@ -1,0 +1,19 @@
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+thead th{
+    border: 2px solid;
+    border-collapse: collapse;
+    background-color: pink;
+}
+
+tbody td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: gray;
+}

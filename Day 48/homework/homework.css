@@ -1,0 +1,30 @@
+/* 2) ახსენით თუ რა დანიშნულება აქვს border-collapse კუთვნილებას. */
+/* border-collapse აშორებს ორმაგ ბორდერს */
+
+/* 3) CSS-ში კომენტარის სახით ახსენით როგორ მუშაობს nth-child Pseudo-Selector-ი. */
+/* როცა წერ :nth-child ამ დროს ამას უნდა ფრჩხილები :nth-child() და აქ უნდა გაუწერო ან ლუწი ან კენტი და უნდა გასტილო მაგალითად მე თუ ლუწი გავუწერე და გავსტილე ყოველი ლუწი ხაზი როგორც გავსტილე ის გამოჩნდება */
+
+/* 4) შექმენით მაგავსი დიზაინის ცხრილები HTML + CSS-ის გამოყენებით: */
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+thead th{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+tbody td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+thead th{
+    background-color: lightgreen;
+}
+
+tbody tr:nth-child(even) {
+    background-color: gray;
+    color: lightgreen;
+}
