@@ -9,12 +9,13 @@ def manual_sum(list):
 print(manual_sum([2, 3, 4, 5, 1]))
 
 # 3) დაწერეთ ფუნქცია, რომელიც არგუმენტად მიიღებს მომხმარებლის სახელს, გვარს და ასაკს. ფუნქციამ უნდა დააბრუნოს მომხმარებლის მონაცემები წინადადების სახით. (გამოიყენეთ f string-ი)
-def geting(name, first, age):
-    return f"you are name is {name} you are first name is {first} and you are ages is {age}"
+def geting(name, surename, age):
+    return f"you are name is {name} you are sure name is {surename} and you are ages is {age}"
 print(geting("deme", "sukhitashvili", 10))
 
 # 4) შექმენით ფუნქცია - Arithmetic_mean, რომელიც პარამეტრად მიიღებს სიას. ფუნქციამ სიაში არსებული ელემენტების საშუალო არითმეტიკული უნდა დააბრუნოს. (ფუნქცია გათვლილი უნდა იყოს ნებისმიერი რაოდენობის შემცველ სიაზე)
 # ვერ გავიგე
+
 
 # 5) შექმენით ფუნქცია და არგუმენტად გადაეცით String-ი. ფუნქციამ ეგრედწოდებულად უნდა "გაფილტროს" ეს სტრინგი თანხმოვანი ასოებისგან და მხოლოდ დააბრუნოს ის ხმოვანი ასოები, რომლებსაც ეს სტრინგი შეიცავს.
 # ვერ გავიგე
