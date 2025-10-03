@@ -1,0 +1,68 @@
+/* 2) შექმენით 500px × 500px div (ღია ნაცრისფერი). */
+/* მას მიანიჭეთ position: relative და შიგნით ჩააშენეთ ოთხი პატარა div (წითელი, ლურჯი, მწვანე, ყვითელი). */
+.container{
+    position: relative;
+    background: lightslategray;
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+}
+
+#chill-1{
+    background: red;
+}
+
+#chill-2{
+    background: blue;
+    left: 297px;
+}
+
+#chill-3{
+    background: green;
+    top: 297px;
+}
+
+#chill-4{
+    background: yellow;
+    top: 297px;
+    left: 297px;
+}
+
+.chill{
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+/* გამოიყენეთ position: absolute; ისე რომ: */
+
+/* • წითელი იყოს ზედა მარცხენა კუთხეში, */
+
+/* • ლურჯი – ზედა მარჯვენაში, */
+
+/* • მწვანე – ქვედა მარცხენაში, */
+
+/* • ყვითელი – ქვედა მარჯვენაში. */
+
+/* 3) საიტზე დაამატეთ img ელემენტი. შექმენით პარაგრაფი, რომელშიც ჩაწერთ ფოტოს აღწერას. */
+/* გამოიყენეთ position: absolute; ისე, რომ ტექსტი გამოჩნდეს სურათის ქვედა ნაწილში. */
+img, h1{
+    position: absolute;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border: 2px double black;
+}
+
+h1{
+    font-size: 20px;
+    top: 680px;
+    padding: 50px;
+}
+
+/* 4) დაასრულეთ Level 68-ის დავალებები. */
+
+/* 5) მიიყვანეთ ჯგუფური პროექტი საბოლოო ეტაპამდე. */
