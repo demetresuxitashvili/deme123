@@ -33,7 +33,7 @@
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    background: yellow;
+    background: rgb(255, 170, 0);
     left: 250px;
     bottom: 380px;
 }
