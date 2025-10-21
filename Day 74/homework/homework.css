@@ -1,0 +1,17 @@
+header{
+    border: 2px double black;
+    position: sticky;
+    background: orangered;
+}
+
+main{
+    border: 2px solid black;
+    position: fixed;
+    background: gray;
+}
+
+footer{
+    border-radius: 2px solid black;
+    position: fixed;
+    background: gray;
+}

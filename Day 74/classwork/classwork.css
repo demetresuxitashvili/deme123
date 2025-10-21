@@ -1,0 +1,33 @@
+header{
+    border: 3px double black;
+    background: orange;
+    position: fixed;
+    text-align: center;
+}
+
+main{
+    border: 3px double black;
+    background: gray;
+    position: sticky;
+}
+
+footer{
+    border: 3px double black;
+    background: gray;
+    position: sticky;
+}
+
+nav{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+a{
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+img{
+    width: 250px;
+    height: 150px;
+}
