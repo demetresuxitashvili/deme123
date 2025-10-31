@@ -1,0 +1,93 @@
+/* 2)  შექმენით div-ი, რომელსაც ამოატრიალებთ საათის ისრის საწინააღმდეგო მიმართულებით 190 გრადუსით და გააორმაგებთ მის ზომას active მდგომარეობის დრის. */
+#box-1{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    border: 2px solid black;
+}
+
+#box-1:active{
+    width: 200px;
+    height: 200px;
+    transform: rotate(-190deg);
+    transition: 0.7s;
+}
+
+/* 3) საიტზე დაამატეთ ღილაკი. მასზე დაკლიკება ზომის გადიდებას უნდა იწვევდეს. */
+#b1{
+    width: 50px;
+    height: 50px;
+    background: red;
+    border: none;
+}
+
+#b1:active{
+    transform: scale(1.5);
+    transition: 0.7s;
+}
+
+/* 4) შექმენით საიტი, სადაც ორ სხვადასხვა ღილაკს დაამატებთ. პირველზე მაუსის გადატარებისას ზომა უნდა უმცირდებოდეს, ასევე მარცხნივ 160px-ით და ზემოთ 20px-ით უნდა ადიოდეს. მეორე ღილაკს დაკლიკებისას ზომა უნდა ეზრდებოდეს, მარჯვნივ 60px-ით და ზემოთ 45px-ით უნდა ადიოდეს. */
+#b2{
+    width: 100px;
+    height: 100px;
+    background: goldenrod;
+    border: none;
+    margin-left: 80vh;
+}
+
+#b2:hover{
+    width: 10px;
+    height: 10px;
+    margin-left: -160px;
+    margin-top: -20px;
+    transition: 6s;
+}
+
+#b3{
+    width: 100px;
+    height: 100px;
+    background: green;
+    border:  none;
+    margin-right: -100vh;
+    margin-top: 50px;
+}
+
+#b3:active{
+    width: 200px;
+    height: 200px;
+    margin-right: -60px;
+    margin-top: -45px;
+}
+
+div{
+    background: maroon;
+    width: 250px;
+    height: 250px;
+}
+
+div:active{
+    transform-origin: 150px 50px;
+    transform: rotate(15deg);
+}
+
+/* 5) ახსენით რა მოხდება თუ ნებისმიერ ელემენტს rotate(360deg)-ს გავუწერთ. */
+/* ეს ელემენტი გადატრიალდება 360 გრადუსით */
+/* გადატრიალდება 360 გრადუსით */
+
+/* 6) Paint-ის გამოყენებით სქემატურად აღწერეთ თუ რას აკეთებს Transform-origin */
+
+/* 7) შექმენით უმაგრესი ეფექტი Transform-ების გამოყენებით და გამოიტანეთ საიტზე. */
+img{
+    border-radius: 50%;
+}
+
+img:hover{
+    border-radius: 30%;
+    transform: translate(700px, 100px);
+    transition: 7s;
+}
+
+img:active{
+transform: rotate(9999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999deg);
+transition: 20s;
+}
