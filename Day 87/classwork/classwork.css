@@ -1,0 +1,24 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+    animation: greet 1s linear infinite;
+}
+
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+@keyframes greet{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
