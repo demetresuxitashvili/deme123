@@ -1,0 +1,118 @@
+/* 2) საიტზე დაამატეთ კონტეინერი, რომელშიც 4 შვილ Div-ს ჩააშენებთ. კონტეინერს გაუწერეთ display:flex და გამოიყენეთ flex-grow იმისთვის, რომ ყველა ელემენტს სხვადასხვა პროპორციის სიგანე მიანიჭოთ  */
+.container{
+    display: flex;
+    width: 250px;
+    height: 60px;
+    border: 3px solid black;
+}
+
+.chill-container-1{
+    border: 2px solid blueviolet;
+    width: 50px;
+    height: 57px;
+    background: red;
+    flex-grow: 1;
+}
+
+.chill-container-2{
+    border: 2px solid blueviolet;
+    width: 50px;
+    height: 57px;
+    background: red;
+    flex-grow: 2;
+}
+
+.chill-container-3{
+    border: 2px solid blueviolet;
+    width: 50px;
+    height: 57px;
+    background: red;
+    flex-grow: 2;
+}
+
+.chill-container-4{
+    border: 2px solid blueviolet;
+    width: 50px;
+    height: 57px;
+    background: red;
+    flex-grow: 1;
+}
+/* 3) საიტზე დაამატეთ კონტეინერი, რომელშიც 5 შვილ Div-ს ჩააშენებთ. გამოიყენეთ flex-grow იმისთვის, რომ პირველი ელემენტი დაიკავებდეს ყველაზე მეტ ადგილს, ხოლო დანარჩენები თანაბრად გადანაწილდნენ. */
+.container-2{
+    border: 3px solid black;
+    display: flex;
+    width: 250px;
+    height: 60px;
+}
+
+.chil-container-1{
+    border: 2px solid blueviolet;
+    width: 50px;
+    height: 57px;
+    background: red;
+    flex-grow: 1;
+}
+
+.chil-container-2{
+    border: 2px solid blueviolet;
+    width: 50px;
+    height: 57px;
+    background: red;
+    flex-grow: 2;
+}
+
+.chil-container-3{
+    border: 2px solid blueviolet;
+    width: 50px;
+    height: 57px;
+    background: red;
+    flex-grow: 2;
+}
+
+.chil-container-4{
+    border: 2px solid blueviolet;
+    width: 50px;
+    height: 57px;
+    background: red;
+    flex-grow: 3;
+}
+
+.chil-container-5{
+    border: 2px solid blueviolet;
+    width: 50px;
+    height: 57px;
+    background: red;
+    flex-grow: 4;
+}
+/* 4) საიტზე დაამატეთ კონტეინერი, რომელშიც 3 შვილ Div-ს ჩააშენებთ. მხოლოდ შუა ელემენტს მიანიჭეთ flex-grow: 1; დანარჩენებს 0. დააკვირდით შედეგს. */
+.container-3{
+    display: flex;
+    border: 3px solid black;
+    width: 250px;
+    height: 60px;
+}
+
+.box-1{
+    border: 2px double blue;
+    width: 50px;
+    height: 57px;
+    background: green;
+    flex-grow: 1;
+}
+
+.box-2{
+    border: 2px double blue;
+    width: 50px;
+    height: 57px;
+    background: green;
+}
+
+.box-3{
+    border: 2px double blue;
+    width: 50px;
+    height: 57px;
+    background: green;
+}
+
+/* 5) CSS_ის ფაილში კომენტარის სახით დეტალურად ახსენით, თუ რა დროს ვიყენებთ Flex-grow კუთვნილებას. */
+/* ჩვენ Flex-grow-ის საშვალებით შეგვიძლია გავადიდოთ ან დავსვათ ერთ ზომაზე დივები. ფოტოები და ასშ. */

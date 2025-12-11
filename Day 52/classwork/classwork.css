@@ -1,0 +1,16 @@
+input{
+    background-color: blue;
+}
+
+input:active{
+    font-size: medium;
+}
+
+.box{
+    background-color: rgb(255, 194, 194);
+    border-radius: 5%;
+}
+
+.box:hover{
+    font-size: medium;
+}

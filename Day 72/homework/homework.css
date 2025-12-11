@@ -1,0 +1,28 @@
+.box-1{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 500px;
+    top: 200px;
+}
+
+.box-2{
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 510px;
+    top: 210px;
+    border-radius: 300px;
+}
+
+.box-3{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 650px;
+    top: 360px;
+    border-radius: 100px;
+}

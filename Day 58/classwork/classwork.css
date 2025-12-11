@@ -1,0 +1,42 @@
+/* 1) თქვენი სიტყვეით ახსენით რა დანიშნულება აქვს flex-gow კუთვნილებას და როგორ მუშაობს იგი. */
+/* html-ში ავხსენი */
+
+/* 2) საიტზე დაამატეთ კონტეინერი, რომელშიც 3 შვილ Div-ს ჩააშენებთ. კონტეინერს გაუწერეთ display:flex და გამოიყენეთ flex-grow იმისთვის, რომ სამივე დივი კონტეინერში თანაბრად გადაანაწილოთ. */
+#container{
+    display: flex;
+    border: 4px solid black;
+    width: 522px;
+    height: 58px;
+}
+
+.chil-container{
+    width: 152px;
+    height: 50px;
+    border: 4px solid red;
+    background: blueviolet;
+    flex-grow: 2;
+}
+
+/* 3) საიტზე დაამატეთ კონტეინერი, რომელშიც 3 შვილ Div-ს ჩააშენებთ. კონტეინერს გაუწერეთ display:flex და გამოიყენეთ flex-grow იმისთვის, რომ პირველი და მესამე ელემენტები ცენტრში მოთავსებულ ელემენტზე მეტ სიგანეს იკავებდნენ. */
+#container-2{
+    display: flex;
+    width: 522;
+    height: 522;
+    border: 4px solid black;
+}
+
+.chill-container-2{
+    border: 4px solid red;
+    width: 152px;
+    height: 152px;
+    background: blueviolet;
+    flex-grow: 2;
+}
+
+.chill-container-3{
+    border: 4px solid red;
+    width: 152px;
+    height: 152px;
+    background: blueviolet;
+    flex-grow: 1;
+}

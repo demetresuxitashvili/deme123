@@ -1,0 +1,86 @@
+/* 2) შექმენით Transform ეფექტი, სადაც Div-ი მარცხნივ გადაადგილდება 100px-ით და ფერს იცვლის წითლიდან იისფერში 3 წამის განმავლობაში. */
+#box-1{
+    width: 250px;
+    height: 250px;
+    margin: 200px;
+    background: red;
+    border: 2px solid black;
+}
+
+#box-1:hover{
+    transform: translateX(-100px);
+    background-color: purple;
+    border: 4px solid black;
+    transition: 3s;
+}
+
+/* 3) შექმენით Transform ეფექტი, სადაც Div-ი 200px-ით ქვემოთ გადაადგილდება 1 წამის განმავლობაში, ბრუნავს საათის ისრის მიმართულებით 120 გრადუსით 3 წამის განმავლობაში და ლურჯი ფერიდან ნარინჯისფერში გადადის 2 წამის განმავლობაში. */
+#box-2{
+    width: 250px;
+    height: 250px;
+    border: 2px solid;
+    background-color: blue;
+}
+
+#box-2:hover{
+    transform: translateY(200px) rotate(120deg);
+    background: orangered;
+    border: 4px solid; 
+    transition: transform 1s 3s, background-color 3s;
+}
+
+/* 4) გამოიყენეთ ცოდნა Transform-ებიდან და Transition-ებიდან და შექმენით თქვენთვის სასურველი კრეატიული ანიმაცია. */
+#img{
+    width: 1000px;
+    height: 500px;
+    border: 5px double;
+    border-radius: 50%;
+}
+
+#img:hover{
+    border: 10px double blue;
+    transform: translateX(500px) rotate(9999deg) scale(0.5);
+    border-radius: 10%;
+    transition: 10s;
+}
+
+#img:active{
+    transform: rotate(-999999999999999deg);
+    transition: 2s;
+}
+
+/* 5) შეასრულეთ შემდეგი ანიმაციები Transition-ის გამოყენებით: */
+#box-3{
+    width: 250px;
+    height: 250px;
+    transform: translateX(200px);
+    background: blue;
+}
+
+#box-3:hover{
+    width: 180px;
+    height: 180px;
+    transform: translateX(400px) rotate(360deg);
+    background: yellow;
+    border-radius: 50px;
+    transition: 3s;
+}
+
+nav{
+    border: 2px solid white;
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    display: inline;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+a:hover{
+    text-decoration: underline blue 2px;
+    transition: 4s;
+}

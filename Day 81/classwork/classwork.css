@@ -1,0 +1,29 @@
+/* 1) ახსენით რას აკეთებს თითოეული transform-ის მნიშვნელობა: */
+/* translate */
+/* scale */
+/* rotate */
+/* კარგად ახსნილია classwork.html-ში */
+
+/* 2) შექმენით div-ი, რომელსაც ამოატრიალებთ საათის ისრის მიმართულებით 45 გრადუსით და გაანახევრებთ მის ზომას Hover-ის დრის. */
+#box-1{
+    background: red;
+    width: 150px;
+    height: 150px;
+}
+
+#box-1:hover{
+    background: blue;
+    transform: scale(1.5) rotate(-45deg);
+}
+
+/* 3) საიტზე დაამატეთ ფოტო. active მდგომარეობაში ფოტო საათის ისრის საწინააღმდეგო მიმართულებით მოატრიალეთ 90 გრადუსით, ზომაში ორმაგად გაადიდეთ, გაამოძრავეთ მარცხნივ 150 პისელით, ხოლო ქვემოთ 180 პიქსელით */
+#box-2{
+    width: 250px;
+    height: 250px;
+    background: black;
+}
+
+#box-2:active{
+    transform: rotate(-90deg) scale(1.5) translate(-150px);
+    background: turquoise;
+}

@@ -1,0 +1,11 @@
+.button{
+    background-color: green;
+    font-family: arial;
+    border: 2px orange solid;
+}
+
+.button1{
+    background-color: darkred;
+    font-family: verdana;
+    border: 1px blue double;
+}

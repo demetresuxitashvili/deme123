@@ -1,0 +1,30 @@
+body{
+    background: #06001a;
+    background: linear-gradient(90deg, rgba(6, 0, 26, 1) 0%, rgba(18, 0, 138, 1) 50%, rgba(6, 0, 26, 1) 100%);
+    text-align: center
+}
+
+input{
+    border-radius: 5%;
+    border: 5px green solid;
+    font-size: 19px;
+}
+
+#click{
+    border: none;
+}
+
+label{
+    font-size: 19px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+form{
+    border: 2px solid black;
+    top: 20px;
+    padding: 20px;
+}

@@ -1,0 +1,23 @@
+button{
+    background-color: blueviolet;
+}
+
+table{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+thead th{
+    border: 2px solid;
+    border-collapse: collapse;
+    background-color: rgb(81, 81, 255);
+}
+
+tbody td{
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+th{
+    color: whitesmoke;
+}

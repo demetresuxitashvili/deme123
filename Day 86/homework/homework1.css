@@ -1,0 +1,21 @@
+body{
+    background-color: #4069e2;
+}
+
+#box-1{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #e0b988;
+    margin-left: 600px;
+    animation: mix 4s linear ;
+}
+
+@keyframes mix{
+    from{
+        transform: translateY(0px);
+    }
+    to{
+        transform: translateY(600px);
+    }
+}

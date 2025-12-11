@@ -1,0 +1,88 @@
+/* 2) ახსენით რას აკეთებს Position კუთვნილება CSS_ში. დეტალურად განმარტეთ მისი მნიშვნელობები : static, relative, absolute */
+/* postion-ით შეგვიძლია გადვადგილოთ */
+
+/* 3) დაწერეთ თუ რა განსხვავებაა Position: relative-სა და Position: absolute-ს შორის. საიტზე დაამატეთ Div-ი და მისი საშუალებით მოიყვანეთ განმასხვავებელი ნიშნის მაგალითი. */
+/* absolute - როცა რამე ობიეკთს ვუწურეთ positon- absolute: ყველა ელემენტებზე ზემოთ */
+.parent{
+    position: relative;
+    background: burlywood;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 3px;
+    left: 10px;
+    top: 15px;
+}
+
+/* 4) შექმენით div კონტეინერი, რომელსაც ექნება ლურჯი ფონი. მასში ჩასვით პატარა div ელემენტი და მიანიჭეთ წითელი ფერი. */
+/* შვილ div-ს ჯერ გაუწერეთ; */
+/* position: relative;  */
+/* top: 20px;  */
+/* left: 30px; */
+/* შემდეგ კი  */
+/* position: relative; ჩაანაცვლეთ position: absolute-თ და დააკვირდით შედეგს. რა შეიცვალა?   */
+.container{
+    background: blue;
+    width: 270px;
+    height: 270px;
+    border: 2px solid black;
+}
+
+.chill{
+    background: red;
+    position: relative;
+    top: 20px;
+    left: 30px;
+    width: 150px;
+    height: 80px;
+    border: 2px solid black;
+}
+/* აბსულთით მაღლა ავიდა და რელათვით დაბლა ჩამოვიდა */
+
+/* 5) შექმენით 300px × 300px div კონტეინერი და მიანიჭეთ მას position: relative;. */
+/* კონტეინერში მოათავსეთ სამი პატარა div-ი სხვადასხვა ფერებით. */
+/* თითოეულს გაუწერეთ position: absolute; და მიეცი top, left, right, bottom მნიშვნელობები, ისე რომ ერთ-ერთი იყოს ზედა მარცხენა კუთხეში, მეორე – ქვედა მარჯვენა კუთხეში, ხოლო მესამე - Div-ის ცენტრში.  */
+#container{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border: 2px solid black;
+    background: yellow;
+}
+
+#chill{
+    background: blue;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+}
+
+#chill-2{
+    background: red;
+    border: 2px solid black;
+    width: 90px;
+    height: 90px;
+}
+
+#chill-3{
+    background: orangered;
+    border: 2px solid black;
+    width: 90px;
+    height: 110px;
+}
+
+/* 6) საიტზე დაამატეთ img ელემენტი. ცალკე h2-ში ჩაწერეთ ამ ფოტოს აღწერა. გამოიყენეთ Position კუთვნილება ისე, რომ h2 თეგი ფოტოს ზედაპირზე გამოჩნდეს. */
+/* HARD LVL: */
+
+.bla{
+    border: 2px solid black;
+    width: 600px;
+    height: 350px;
+}
+
+.agwera{
+    position: relative;
+    bottom: 205px;
+    left: 40px;
+    color: rgb(196, 0, 0);
+}
