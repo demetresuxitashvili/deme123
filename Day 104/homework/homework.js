@@ -22,7 +22,7 @@ age > 18 ? console.log('Adult') : 13 < age && age < 17 ? console.log('Teen') : c
 // 4) შეამოწმეთ რიცხვი ლუწია თუ კენტი Ternary Operator-ით. დააბრუნეთ 'Even'/'Odd'
 let nmb = 8
 
-nmb % 2 == 0 ? console.log('Odd') : console.log('Even')
+nmb % 2 == 0 ? console.log('even') : console.log('odd')
 
 // 5) შექმენით isLoggedIn ცვლადი. მომხმარებელს შემოატანინეთ ინფორმაცია არის თუ არა შესული სისტემაში. თუ პასუხი 'yes' არის - ტერნარის მეშვეობით isLoggedIn  ცვლადში შეინახეთ true, სხვა შემთხვევაში false. გამოიყენეთ string literal, რომ კონსოლში დაბეჭდოთ წინადადება:
 // 'Is the user logged in? true/false.'
