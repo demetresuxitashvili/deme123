@@ -1,0 +1,83 @@
+/* შექმენით სამი პარაგრაფი. პირველ პარაგრაფის ტექსტს ქვემოდან გაუსვით წითელი ფერის წერტილოვანი ხაზი, მეორე პარაგრაფს ზემოდან გაუსვით ტალღოვანი ლურჯი ფერის ხაზი და მესამე პარაგრაფის ტექსტს კი - default ფერის წყვეტილი ხაზი გადაუსვით. */
+#box-1{
+    text-decoration: underline red dotted;
+}
+
+#box-2{
+    text-decoration: overline blue wavy;
+}
+
+#box-2{
+    border: 3px dashed;
+}
+
+/* შექმენით 5 პარაგრაფი, თითოეულს გაუკეთეთ განსხვავებული სტილის ხაზგასმა:
+•    პირველი: underline + dotted
+•    მეორე: overline + dashed
+•     მესამე: line-through + wavy
+•    მეოთხე: underline + double
+•    მეხუთე: underline + solid */
+#p1{
+    text-decoration: underline dotted;
+}
+
+#p2{
+    text-decoration: overline dashed;
+}
+
+#p3{
+    text-decoration: line-through wavy;
+}
+
+#p4{
+    text-decoration: underline double;
+}
+
+#p5{
+    text-decoration: underline solid;
+}
+
+/* გამოიყენეთ text-decoration კუთვნილება სხვადასხვა ტექსტურ ელემენტზე:
+•    h1 – underline
+•    h2 – overline
+•    h3 – blueviolet dashed line-through
+•    em – wavy red underline
+•    strong – double underline */
+#heading-1{
+    text-decoration: underline;
+}
+
+#heading-2{
+    text-decoration: overline;
+}
+
+#heading-3{
+    text-decoration: dashed line-through;
+    text-decoration-color: blueviolet ;
+}
+
+#heading-4{
+    text-decoration: underline wavy;
+    text-decoration-color: red;
+}
+
+#heading-5{
+    text-decoration: underline double;
+}
+
+/* html-ის დოკუმენტში დაამატეთ div ელემენტი და გაუწერეთ კლასი container. div ელემენტში ჩააშენეთ რამდენიმე განსხვავებული ტექსტური ელემენტი (p, em, strong, h1-h6) და ყველას მიანიჭეთ ინდივიდუალური text-decoration-ის სტილი id-ების გამოყენებით. (მაგ: წერტილოვანი, ტალღოვანი, ორმაგი და სხვ.) */
+#div-1{
+    text-decoration: underline dashed;
+}
+
+#div-2{
+    text-decoration: overline dotted;
+}
+
+#div-3{
+    text-decoration: none;
+}
+
+#div-4{
+    text-decoration: underline red wavy;
+}

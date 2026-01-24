@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#box-1{
+    background: rgb(255, 130, 151);
+    animation: mix 2s linear none infinite;
+}
+
+#box-2{
+    background: blue;
+}
+
+#box-3{
+    background: green;
+}
+
+#box-4{
+    background: yellow;
+}
+
+#box-5{
+    background: red;
+    animation: mix-2 3s linear none infinite;
+}
+
+@keyframes mix{
+    from{
+        transform: translateX(-120px) translateY(-200px);
+    }
+    to{
+        transform: translateX(15px) translateY(15px);
+    }
+}
+
+@keyframes mix-2{
+    from{
+        transform: translateY(-200px) translateX(120px);
+    }
+    to{
+        transform: translateX(15px) translateY(15px);
+    }
+}

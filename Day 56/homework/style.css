@@ -1,0 +1,77 @@
+/* 2) CSS_ის ფაილში კომენტარის სახით ჩამოწერეთ დღეს ნასწავლი Flexbox-ის კუთვნილებები. ახსენით რა დანიშნულება აქვს:
+    • Display კუთვნილებას;
+    • Justify-content კუთვნილებას;
+    • Align-items კუთვნილებას; */
+        /* რა ვისწავლეთ დღეს: display: flex - ერთ ხაზე განლაგება,  justify:start - სასტრატოზე განლაგება, justify: center, justify: end, inline, block, inline-block, block-inline, align-items: start, center, end. justify: space-around, space between, space-evenly. align-items: space-around, space-between, space-evenly*/
+
+/* 3) HTML-ის ფაილში დაამატეთ ერთი Div ელემენტი სახელწოდებით main-box და მასში 3 შვილი Div ელემენტი ჩასვით. main-box-ს გაუწერეთ display: flex. */
+/*გამოიყენეთ დღეს ნასწავლი  მასალა, რომ შვილი div-ები ჰორიზონტალურად განალაგოთ და გადაიტანოთ ვერტიკალურად მშობელი ელემენტის ბოლოში.*/
+.child{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border: 2px solid red;
+}
+
+.main-box{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 5px solid blue;
+    align-items: end;
+}
+
+/*4) შექმენით 5 პატარა div ელემენტი ერთ parent div-ში. Parent div-ს გაუწერეთ ისეთი კუთვნილებები, რომ შვილი ელემენტები ჰორიზონტალურად ცენტრში გადავიდნენ. */
+.parent{
+    border: 5px solid black;
+    width: 423px;
+    height: 423px;
+    justify-content: center;
+    display: flex;
+}
+
+.box{
+    border: 3px solid black;
+    background: blue;
+    width: 60px;
+    height: 60px;
+}
+
+/* 5) html-ში დაამატეთ კონტეინერ Div-ი და მასში ჩააშენეთ 3 პარაგრაფი. 
+პარაგრაფები გარდაქმენით inline ელემენტებად display კუთვნილების გამოყენებით. ასევე, გაუწერეთ მათ სასურველი სტილის ბორდერები.
+გამოიყენეთ, რათა კონტეინერის შიგნით პარაგრაფები ვერტიკალურად გაცენტროთ , ჰორიზონტალურად კი  კონტეინერის მარჯვენა კიდეში განალაგოთ. */
+.containers-child{
+    display: inline;
+    border: 2px solid black;
+    background: red;
+    text-align: center;
+    justify-content: right;
+    width: 60px;
+    height: 60px;
+}
+
+.container{
+    border: 5px solid black;
+    width: 360px;
+    height: 360px;
+}
+
+/* 6) საიტზე დაამატეთ ერთი Div, რომელსაც გაუწერთ შემდეგ ზომას: 500x500.
+დივის შიგნით ჩააშენეთ ორი ფოტო. ფოტოები ვერტიკალურად და ჰორიზონტალურად მოაქციეთ მშობელი ელემენტის ცენტრში. */
+.img-parent{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img-child{
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+
+/* 7) თავიდან უყურეთ ჩანაწერს ‼️ */

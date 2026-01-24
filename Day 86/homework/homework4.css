@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div{
+    background: #e28900;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}

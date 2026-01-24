@@ -1,0 +1,296 @@
+body{
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+
+#img1{
+    width: 1550px;
+    height: 500px;
+    display: none;
+}
+
+#img2{
+    display: flex;
+    padding-left: 700px;
+    padding-top: 90px;
+    align-items: start;
+}
+
+#head1{
+    display: flex;
+    justify-content: center;
+    color: hsl(210, 10%, 33%);
+}
+
+#p1{
+    display: flex;
+    justify-content: center;
+    color: hsl(201, 11%, 66%);
+}
+
+#b1{
+    display: block;
+    margin-left: 550px;
+    margin-top: 60px;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    background: hsl(171, 66%, 44%);
+    border-radius: 20px;
+}
+
+#b2{
+    display: block;
+    margin-left: 780px;
+    margin-top: -40px;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 20px;
+}
+
+#head2{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    color: hsl(210, 10%, 33%);
+}
+
+#p2{
+    display: flex;
+    justify-content: center;
+    color: hsl(201, 11%, 66%);
+}
+
+#img3{
+    padding-top: 70px;
+}
+
+#head3{
+    display: flex;
+    padding-left: 950px;
+    margin-top: -500px;
+    color: hsl(210, 10%, 33%);
+}
+
+#p3{
+    display: flex;
+    justify-content: center;
+    padding-left: 720px;
+    color: hsl(201, 11%, 66%);
+}
+
+#head4{
+    display: flex;
+    justify-content: center;
+    padding-left: 540px;
+    color: hsl(210, 10%, 33%);
+}
+
+#p4{
+    display: flex;
+    justify-content: center;
+    padding-left: 720px;
+    color: hsl(201, 11%, 66%);
+}
+
+#head5{
+    display: flex;
+    justify-content: center;
+    padding-left: 590px;
+    color: hsl(210, 10%, 33%);
+}
+
+#p5{
+    display: flex;
+    justify-content: center;
+    padding-left: 720px;
+    color: hsl(201, 11%, 66%);
+}
+
+#head6{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+    color: hsl(210, 10%, 33%);
+}
+
+#p6{
+    display: flex;
+    justify-content: center;
+    color: hsl(201, 11%, 66%);
+}
+
+#img3{
+    margin-top: 100px;
+}
+
+#head7{
+    display: flex;
+    justify-content: center;
+    color: hsl(210, 10%, 33%);
+}
+
+#p7{
+    display: flex;
+    justify-content: center;
+    color: hsl(201, 11%, 66%);
+}
+
+#img4{
+    margin-left: 200px;
+}
+
+#img5{
+    display: flex;
+    padding-left: 300px;
+}
+
+#head8{
+    display: flex;
+    padding-left: 250px;
+    color: hsl(210, 10%, 33%);
+}
+
+#p8{
+    display: flex;
+    padding-left: 200px;
+    color: hsl(201, 11%, 66%);
+}
+
+#img6{
+    display: flex;
+    padding-left: 750px;
+    margin-top: -170px;
+}
+
+#head9{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    color: hsl(210, 10%, 33%);
+}
+
+#p9{
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    color: hsl(201, 11%, 66%);
+}
+
+#img7{
+    display: flex;
+    padding-left: 1300px;
+    margin: -150px;
+}
+
+#head10{
+    display: flex;
+    padding-left: 1090px;
+    padding-top: 150px;
+    color: hsl(210, 10%, 33%);
+}
+
+#p10{
+    display: flex;
+    padding-left: 1000px;
+    color: hsl(201, 11%, 66%);
+}
+
+#img8{
+    display: flex;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+#img9{
+    display: flex;
+    margin-top: -50px;
+    padding-left: 500px;
+}
+
+#img10{
+    display: flex;
+    margin-top: -50px;
+    padding-left: 750px;
+}
+
+#img11{
+    display: flex;
+    margin-top: -50px;
+    padding-left: 1000px;
+}
+
+#img12{
+    display: flex;
+    margin-top: -50px;
+    padding-left: 1200px;
+}
+
+#head11{
+    padding-top: 200px;
+    padding-left: 600px;
+    color: hsl(210, 10%, 33%);
+}
+
+#p11{
+    display: flex;
+    justify-content: center;
+    color: hsl(201, 11%, 66%);
+}
+
+#b3{
+    display: block;
+    margin-left: 550px;
+    margin-top: 50px;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(171, 66%, 44%);
+    border-radius: 20px;
+}
+
+#b4{
+    display: block;
+    margin-left: 780px;
+    margin-top: -40px;
+    border: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+    background-color: hsl(233, 100%, 69%);
+    border-radius: 20px;
+}
+
+#img13{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding-top: 100px;
+    padding-left: 200px;
+}
+
+#p12{
+    display: flex;
+    padding-left: 400px;
+    margin-top: -70px;
+    color: hsl(210, 10%, 33%);
+}
+
+#p13{
+    display: flex;
+    padding-left: 700px;
+    margin-top: -70px;
+    color: hsl(210, 10%, 33%);
+}
+
+#p14{
+    display: flex;
+    padding-left: 1000px;
+    margin-top: -70px;
+    color: hsl(210, 10%, 33%);
+}

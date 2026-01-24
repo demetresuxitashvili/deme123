@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(3, 0, 186);
+}
+
+.box{
+    border-radius: 50%;
+}
+
+#box-1{
+    background: white;
+    width: 200px;
+    height: 200px;
+}
+
+#box-2{
+    background: rgb(3, 0, 186);
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    animation: mix 4s ease-in-out 1s infinite;
+}
+
+@keyframes mix{
+    0%{
+        transform: translateY(100px);
+    }
+    20%{
+        transform: translateX(-50px);
+    }
+    50%{
+        transform: translateX(50px);
+    }
+    75%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateX(50px) translateY(80px);
+    }
+}

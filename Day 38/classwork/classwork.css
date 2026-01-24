@@ -1,0 +1,25 @@
+.photo1{
+    color: red;
+    border: solid;
+    width: 150px;
+    height: 150px;
+}
+
+.photo2{
+    color: purple;
+    border: double;
+    width: 200px;
+    height: 200px;
+}
+
+.p1{
+    color: blue;
+}
+
+.p2{
+    color: green;
+}
+
+p{
+    text-align: center;
+}

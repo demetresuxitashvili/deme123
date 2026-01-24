@@ -1,0 +1,23 @@
+#Soccer_ball{
+    width: 100px;
+    height: 100px;
+    border: 2px darkred solid ;
+}
+
+#ball{
+    width: 150px;
+    height: 150px;
+    border: 3px blue dashed;
+}
+
+#fotball{
+    width: 200px;
+    height: 200px;
+    border: 3px purple dotted;
+}
+
+#siuu{
+    width: 250px;
+    height: 250px;
+    border: 2px green double;
+}

@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    background-color: rgb(95, 95, 95);
+}
+
+p{
+    color: white;
+}
+
+h1{
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+input{
+    background-color: rgb(184, 184, 184);
+}
+
+#submit{
+    background-color: blue;
+}

@@ -1,0 +1,55 @@
+.P1{
+    text-align: left;
+}
+
+#p2{
+    text-align: center;
+    border: 1px blue solid;
+    background-color: black;
+}
+
+h1{
+    color: purple;
+}
+
+h2{
+    color: rgb(128,0,128);
+}
+
+h3{
+    color: #800080;
+}
+
+.button1{
+    background-color: green;
+    border: 2px rgb(255,166,0) solid;
+}
+
+.button2{
+    background-color: #ff0000;
+    border: 1px blue double
+}
+
+#img1{
+    width: 100px;
+    height: 100px;
+    border: 2px red solid;
+}
+
+#img2{
+    width: 150px;
+    height: 150px;
+    border: 3px blue dashed;
+}
+
+#img3{
+    width: 200px;
+    height: 200px;
+    border: 4px purple dotted;
+}
+
+#img4{
+    width: 250px;
+    height: 250px;
+    border: 2px green double;
+}

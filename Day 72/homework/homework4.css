@@ -1,0 +1,39 @@
+#box-1{
+    position: relative;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: brown;
+    left: 250px;
+    top: 360px;
+}
+
+#box-4{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: black;
+    left: 440px;
+    bottom: 650px;
+}
+
+#box-3{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: blue;
+    left: 400px;
+    bottom: 545px;
+}
+
+#box-2{
+    position: relative;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: rgb(255, 170, 0);
+    left: 250px;
+    bottom: 380px;
+}

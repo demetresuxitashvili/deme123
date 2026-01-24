@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+    display: flex;
+    border: 3px solid black;
+    font-size: 22px;
+    background: black;
+    width: 710px;
+    height: 250px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.chill-container{
+    background: purple;
+    width: 102px;
+    height: 250px;
+    border-radius: 8px;
+    flex-grow: 1;
+
+}
+
+#box-2, #box-4{
+    background: blue;
+}
+
+.chill-container:hover{
+    flex-grow: 8;
+}

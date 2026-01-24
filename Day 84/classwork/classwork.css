@@ -1,0 +1,15 @@
+div{
+    background: blue;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transform: translate(100px, 250px);
+}
+
+div:active{
+    width: 250px;
+    height: 250px;
+    transform: translate(1100px, 250px);
+    transition: 5s;
+    border-radius: 50%;
+}

@@ -1,0 +1,36 @@
+.box-1{
+    position: relative;
+    width: 250px;
+    height: 650px;
+    background: white;
+    left: 100px;
+}
+
+.box-2{
+    position: relative;
+    width: 350px;
+    height: 650px;
+    background: black;
+    left: 350px;
+    bottom: 650px;
+}
+
+.box-3{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: black;
+    border-radius: 50%;
+    bottom: 1080px;
+    left: 250px;
+}
+
+.box-4{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background: white;
+    border-radius: 50%;
+    bottom: 1330px;
+    left: 250px;
+}

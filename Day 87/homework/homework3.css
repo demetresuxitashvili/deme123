@@ -1,0 +1,24 @@
+body{
+    background: lightskyblue;
+}
+
+div{
+    width: 150px;
+    height: 150px;
+    background: tan;
+    margin-left: 250px;
+    border-radius: 50%;
+    animation: mix 3s linear none infinite;
+}
+
+@keyframes mix{
+    0%{
+        transform: translate(0px);
+    }
+    50%{
+        transform: translate(150px, 500px);
+    }
+    80%{
+        transform: translate(300px, -20px);
+    }
+}
