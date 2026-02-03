@@ -29,7 +29,7 @@ function sum_arr(num){
     return sum
 }
 
-console.log(sum_arr([1, 2, 4, 1, 3, 2]))
+console.log(sum_arr([1, 2, 4, 1, 3, 2])) // 13
 
 // 5) შექმენით ფუნქცია, რომელიც დააბრუნებს რიცხვის კვადრატს.
 function square(num1, num2){
