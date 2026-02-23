@@ -30,4 +30,3 @@ console.log(number(10))
 
 // 6) შეასრულეთ მოცემული codewars:
 // https://www.codewars.com/kata/558fc85d8fd1938afb000014/train/javascript
-// ვერ გვაიგე
