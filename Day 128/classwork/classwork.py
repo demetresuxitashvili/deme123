@@ -7,9 +7,22 @@ class Movie:
     def __init__(self, name):
         self.name = name
     
-    def display_info(self, directr, year):
+    def display_info(self):
         print(f'the name of the film is... {self.name}')
 
 class Child(Movie):
     def __init__(self, name, director, year):
         super().__init__(name)
+        self.director = director
+        self.year = year
+
+    def display_info(self):
+        super().display_info()
+        print(f"The name of the film is {self.name}. \n the director is {self.director} \n and it came out in {self.year}.")
+
+movie = Child("aze ar var", "aze ar var", "aze ar var")
+
+print(movie.name)
+print(movie.director)
+print(movie.year)
+movie.display_info()
