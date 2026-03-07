@@ -25,4 +25,3 @@ print(colors[:2])
 world = "Hello World!"
 print(world[:5])
 print(world[5:])
-
