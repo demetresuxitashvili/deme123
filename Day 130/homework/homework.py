@@ -10,8 +10,6 @@ class Person:
         self._name = name
         self._age = age
         self.__id_number = id_number
-    def public(self):
-        return self._age
     def private(self):
         if(self._age >= 18):
             return f"you are {self._age} years old and you are full age"

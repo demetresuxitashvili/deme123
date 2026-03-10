@@ -18,11 +18,3 @@ console.log(get_b)
 const get_h1 = document.getElementsByClassName("h1")
 
 console.log(get_h1)
-
-const get_h2 = document.getElementsByClassName("h2")
-
-console.log(get_h2)
-
-const get_h3 = document.getElementsByClassName("h3")
-
-console.log(get_h3)
