@@ -84,11 +84,9 @@ const b7 = document.getElementById("b7")
 const h1 = document.getElementById("h1")
 
 b6.addEventListener("click", () => {
-    const plius = h1 ++
-    console.log(plius)
+    h1.textContent ++
 })
 
 b7.addEventListener("click", () => {
-    const minus = h1 --
-    console.log(minus)
+    h1.textContent --
 })
