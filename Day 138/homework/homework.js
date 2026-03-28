@@ -13,9 +13,12 @@ form.addEventListener("submit", (e) => {
     console.log(pass)
     console.log(cp)
 
-    if(name.length > 5){
+    if(name.length < 5){
         alert("შენი სახელი აღემატება 5-ს!")
         e.preventDefault()
+    }
+    else if(!email.include(".") || !email.include("@") ){
+        alert("გაკლია @ ან . სიმბოლო")
     }
     else if(pass !== cp){
         alert("პაროლი და პაროლის დამადასტურებელი არ ემთხვევა ერთმანეთს!")
