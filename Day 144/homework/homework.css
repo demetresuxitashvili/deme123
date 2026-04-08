@@ -1,0 +1,95 @@
+body{
+    background-color: #0d0056;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div{
+    width: 500px;
+    height: 380px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2215px;
+    background-color: rgb(125, 125, 125);
+    /* padding: 15px; */
+}
+
+#heading1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input{
+    display: flex;
+    margin-left: 150px;
+    height: 30px;
+    border: 2px solid rgb(86, 86, 86);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+#btn{
+    display: flex;
+    margin-left: 340px;
+    border-radius: 5px;
+    margin-top: -90px;
+    height: 35px;
+    border: none;
+    width: 50px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(220, 220, 220);
+}
+
+li{
+    list-style: none;
+    width: 370px;
+    color: black;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    margin-left: 20px;
+    padding-top: 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+
+#btn2{
+    position: absolute;
+    left: 800px;
+    height: 35px;
+    width: 70px;
+    border-radius: 5px;
+    border: none;
+}
+
+#btn3{
+    position: absolute;
+    left: 870px;
+    transform: translateY(-5px);
+    border: none;
+    height: 35px;
+    width: 70px;
+}
+
+#btn4{
+    margin-left: 340px;
+    width: 50px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+}
+
+audio{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
