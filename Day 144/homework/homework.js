@@ -100,7 +100,7 @@ btn2.addEventListener("click", () => {
     edit.style.borderRadius = "5px"
     curency += 80
     box.style.height = curency + "px"
-    input.value = ""
+    input2.value = ""
     remove2.addEventListener("click", () => {
         li.remove()
         curency -= 80

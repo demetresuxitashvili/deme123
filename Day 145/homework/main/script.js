@@ -1,5 +1,5 @@
 let submit = document.getElementById("submit")
-let bxo2 = document.getElementById("box2")
+let box2 = document.getElementById("box2")
 let btn1 = document.getElementById("btn1")
 let btn2 = document.getElementById("btn2")
 let btn3 = document.getElementById("btn3")

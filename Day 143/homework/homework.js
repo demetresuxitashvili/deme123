@@ -34,6 +34,14 @@ btn.addEventListener("click", () => {
     curency += 50
     box.style.height = curency + "px"
     input.value = ""
+    remove2.addEventListener("mouseover", () => {
+        li.style.color = "red"
+        li.style.textDecoration = "line-through"
+    })
+    remove2.addEventListener("mouseout", () => {
+        li.style.color = "black"
+        li.style.textDecoration = "none"
+    })
     remove2.addEventListener("click", () => {
         li.remove()
         curency -= 50
