@@ -1,136 +1,65 @@
-let btn = document.getElementById("btn")
-let box = document.getElementById("box")
-let input = document.getElementById("input1")
-let input2 = document.getElementById("input2")
-let btn2 = document.getElementById("btn4")
-let ul = document.getElementById("ul-list")
-let source = document.getElementById("source")
-let curency = 300
+let add = document.getElementById("add")
+let ul = document.getElementById("musics")
+let inp1 = document.getElementById("inp1")
+let inp2 = document.getElementById("inp2")
 
-btn.addEventListener("click", () => {
+add.addEventListener("click", () => {
     let li = document.createElement("li")
-    let remove2 = document.createElement("button")
+    let p1 = document.createElement("p")
     let edit = document.createElement("button")
-    alert("now enter music link")
-    if(input.value === ""){
-        alert("please enter text!")
+    let remove = document.createElement("button")
+    if (inp1.value === "") {
+        alert("please enter Song title!")
         return;
     }
-    remove2.textContent = "remove"
-    remove2.id = "btn2"
-    edit.textContent = "edit"
-    edit.id = "btn3"
-    li.textContent = input.value
-    ul.appendChild(li)
-    li.appendChild(remove2)
-    li.appendChild(edit)
-    remove2.style.transform = "270px"
-    remove2.style.marginTop = "-5px"
-    remove2.style.border = "none"
-    remove2.style.width = "60px"
-    remove2.style.height = "40px"
-    remove2.style.borderRadius = "5px"
-    edit.style.border = "none"
-    edit.style.width = "60px"
-    edit.style.height = "40px"
-    edit.style.borderRadius = "5px"
-    curency += 80
-    box.style.height = curency + "px"
-    input.value = ""
-    remove2.addEventListener("click", () => {
-        li.remove()
-        alert("now enter music artist")
-        curency -= 80
-        box.style.height = curency + "px"
-        input.value = ""
-    })
-    edit.addEventListener("click", function (){
-        let input3 = prompt("enter what do you want to change: ")
-        alert("now enter music link")
-        if(input2.length === 0){
-            return;
-        }
-        li.textContent = input3
-        remove2.textContent = "remove"
-        remove2.id = "btn2"
-        edit.textContent = "edit"
-        edit.id = "btn3"
-        li.textContent = input3
-        ul.appendChild(li)
-        li.appendChild(remove2)
-        li.appendChild(edit)
-        remove2.style.transform = "270px"
-        remove2.style.marginTop = "-5px"
-        remove2.style.border = "none"
-        remove2.style.width = "60px"
-        remove2.style.height = "40px"
-        remove2.style.borderRadius = "5px"
-        edit.style.border = "none"
-        edit.style.width = "60px"
-        edit.style.height = "40px"
-        edit.style.borderRadius = "5px"
-    })
-})
-
-btn2.addEventListener("click", () => {
-    let li = document.createElement("li")
-    let remove2 = document.createElement("button")
-    let edit = document.createElement("button")
-    if(input2.value === ""){
-        alert("please enter text!")
+    else if (inp2.value === "") {
+        alert("please enter artist")
         return;
     }
-    remove2.textContent = "remove"
-    remove2.id = "btn2"
-    edit.textContent = "edit"
-    edit.id = "btn3"
-    li.textContent = input2.value
+    p1.id = "p1"
+    edit.id = "edit"
+    remove.id = "remove"
     ul.appendChild(li)
-    li.appendChild(remove2)
+    li.textContent = inp1.value
+    li.appendChild(p1)
+    p1.textContent = inp2.value
+    li.appendChild(remove)
+    remove.textContent = "Remove"
     li.appendChild(edit)
-    remove2.style.transform = "270px"
-    remove2.style.marginTop = "-5px"
-    remove2.style.border = "none"
-    remove2.style.width = "60px"
-    remove2.style.height = "40px"
-    remove2.style.borderRadius = "5px"
-    edit.style.border = "none"
-    edit.style.width = "60px"
-    edit.style.height = "40px"
-    edit.style.borderRadius = "5px"
-    curency += 80
-    box.style.height = curency + "px"
-    input2.value = ""
-    remove2.addEventListener("click", () => {
-        li.remove()
-        curency -= 80
-        box.style.height = curency + "px"
-        input.value = ""
+    edit.textContent = "Edit"
+    inp1.value = ""
+    inp2.value = ""
+    remove.addEventListener("mouseover", () => {
+        li.style.color = "red"
+        p1.style.color = "red"
+        li.style.textDecoration = "line-through"
+        p1.style.textDecoration = "line-through"
     })
-    edit.addEventListener("click", function (){
-        let input4 = prompt("enter what do you want to change: ")
-        alert("now enter music link")
-        if(input2.length === 0){
+    remove.addEventListener("mouseout", () => {
+        li.style.color = "white"
+        p1.style.color = "grey"
+        li.style.textDecoration = "none"
+        p1.style.textDecoration = "none"
+    })
+    remove.addEventListener("click", () => {
+        li.remove()
+    })
+    edit.addEventListener("click", () => {
+        let prompt1 = prompt("enter what do you want change in Song title")
+        let prompt2 = prompt("enter what do you want change in Artist")
+        if (!prompt1 || !prompt2) {
+            Toastify({
+                text: "please click Edit and enter text what do you wnat change!",
+                duration: 2000,
+                gravity: "top",
+                position: "center",
+                style: {
+                    background: "linear-gradient(to right, rgba(178, 71, 254), rgba(207, 72, 212), rgba(237, 59, 167));"
+                }
+            }).showToast();
             return;
         }
-        li.textContent = input4
-        remove2.textContent = "remove"
-        remove2.id = "btn2"
-        edit.textContent = "edit"
-        edit.id = "btn3"
-        li.textContent = input4
-        ul.appendChild(li)
-        li.appendChild(remove2)
-        li.appendChild(edit)
-        remove2.style.transform = "270px"
-        remove2.style.marginTop = "-5px"
-        remove2.style.border = "none"
-        remove2.style.width = "60px"
-        remove2.style.height = "40px"
-        remove2.style.borderRadius = "5px"
-        edit.style.border = "none"
-        edit.style.width = "60px"
-        edit.style.height = "40px"
-        edit.style.borderRadius = "5px"
+        li.firstChild.textContent = prompt1
+        p1.textContent = prompt2
     })
-})
+}) 

@@ -3,20 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./homework.css">
     <title>Document</title>
 </head>
 <body>
-    <div id="box">
-        <h1 id="heading1">Music Colecction</h1>
-        <input type="text" id="input1" placeholder="Enter Music name: " required> <br>
-        <input type="text" id="input2" placeholder="Enter Music artist: " required> 
-        <button id="btn">Add</button> <br>
-        <button id="btn4">Add</button>
-        <ul id="ul-list"> 
-
-        </ul>
-    </div>
+    <h1 id="heading1">Music Library</h1>
+    <div id="box1">
+        <input type="text" id="inp1" placeholder="Song title"> <br> <br>
+        <input type="text" id="inp2" placeholder="Artist"> <br> <br>
+        <button id="add">+ Add Song</button>
+    </div> <br> <br> <br>
+    <ul id="musics">
+        
+    </ul>
     <script src="./homework.js"></script>
 </body>
 </html>
