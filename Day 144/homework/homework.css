@@ -5,7 +5,7 @@ body{
 
 #heading1{
     color: rgba(186, 117, 245);
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 #box1{
@@ -16,7 +16,7 @@ body{
     width: 1350px;
     height: 180px;
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 input{
@@ -40,7 +40,7 @@ input{
 
 ul{
     width: 1400px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 li{
@@ -64,7 +64,6 @@ li{
     width: 100px;
     height: 40px;
     margin-left: 1050px;
-    /* margin-top: -50px; */
     transform: translateY(-70px);
     color: white;
     background-color: rgb(77, 61, 108);
@@ -83,3 +82,7 @@ li{
     color: white;
 }
 
+#remove:hover{
+    color: red;
+    transition: 1s;
+}

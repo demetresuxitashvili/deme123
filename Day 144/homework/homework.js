@@ -34,6 +34,8 @@ add.addEventListener("click", () => {
         p1.style.color = "red"
         li.style.textDecoration = "line-through"
         p1.style.textDecoration = "line-through"
+        li.style.transition = "1s"
+        p1.style.transition = "1s"
     })
     remove.addEventListener("mouseout", () => {
         li.style.color = "white"
@@ -50,8 +52,8 @@ add.addEventListener("click", () => {
         if (!prompt1 || !prompt2) {
             Toastify({
                 text: "please click Edit and enter text what do you wnat change!",
-                duration: 2000,
-                gravity: "top",
+                duration: 3000,
+                // gravity: "top",
                 position: "center",
                 style: {
                     background: "linear-gradient(to right, rgba(178, 71, 254), rgba(207, 72, 212), rgba(237, 59, 167));"
