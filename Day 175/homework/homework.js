@@ -1,0 +1,1 @@
+// 1) გააკეთეთ შემდეგი frontend mentor - ი: https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q

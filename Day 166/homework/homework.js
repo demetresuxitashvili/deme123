@@ -60,20 +60,37 @@
 //     })
 
 // 3)შექმენი 4 ფრომისი  და reduce-ით დაითვალე რამდენია წარმატებული და რამდენი წარუმატებელი.
-// ვერ გავიგე
+let p1 = new Promise((res, rej) => {
+    res("correct")
+})
+
+let p2 = new Promise((res, rej) => {
+    res("correct")
+})
+
+let p3 = new Promise((res, rej) => {
+    res("correct")
+})
+
+let p4 = new Promise((res, rej) => {
+    res("correct")
+})
+
+Promise.allSettled([p1, p2, p3, p4])
+    
 
 // 4) შექმენი 5 Promise და გაფილტრე ეს ფრომისები დააბრუნე  მხოლოდ წარმატებულები (resolved/fulfilled)
-let myPromise1 = new Promise((resolve, reject) => {reject("p1: failed")})
-let myPromise2 = new Promise((resolve, reject) => {resolve("p2: correct")})
-let myPromise3 = new Promise((resolve, reject) => {resolve("p3: correct")})
-let myPromise4 = new Promise((resolve, reject) => {reject("p4: failed")})
-let myPromise5 = new Promise((resolve, reject) => {resolve("p5: correct")})
+// let myPromise1 = new Promise((resolve, reject) => {reject("p1: failed")})
+// let myPromise2 = new Promise((resolve, reject) => {resolve("p2: correct")})
+// let myPromise3 = new Promise((resolve, reject) => {resolve("p3: correct")})
+// let myPromise4 = new Promise((resolve, reject) => {reject("p4: failed")})
+// let myPromise5 = new Promise((resolve, reject) => {resolve("p5: correct")})
 
-Promise.allSettled([myPromise1, myPromise2, myPromise3, myPromise4, myPromise5])
-    .then((data) => {
-        for(let i = 0; i < data.length; i ++){
-            if(data[i].status === "fulfilled"){
-                console.log(data[i])
-            }
-        }
-    })
+// Promise.allSettled([myPromise1, myPromise2, myPromise3, myPromise4, myPromise5])
+//     .then((data) => {
+//         for(let i = 0; i < data.length; i ++){
+//             if(data[i].status === "fulfilled"){
+//                 console.log(data[i])
+//             }
+//         }
+//     })
