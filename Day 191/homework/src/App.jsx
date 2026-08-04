@@ -1,120 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const imgObj = {
+  //   img1: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsn-1i2LlH8vcwMU8OxTJCf8Mlf7Y1UrUOCA&shttps://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+  //   img2: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+  //   img3: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/500px-ISO_C%2B%2B_Logo.svg.png"
+  // }
+  // const onMouseOverFunc = (e) => {
+  //   e.target.innerHTML = Math.PI.toFixed(10)
+  // }
+  // const onMouseOutFunc = (e) => {
+  //   e.target.innerHTML = "π"
+  // }
+  const cardData = {
+    imgSrc: "https://cdn.supercommerce.io/kareem/uploads/1675811427_1748814-1689678364.jpg",
+    title: "Canon EOS RP Mirrorless Lente 24-105mm STM",
+    description: "world view"
+  }
 
   return (
     <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
-        </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
-        </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
+    {/* 2) შექმენით ობიექტი, რომელშიც შეინახავთ ფოტოს მისამართებს (src). საიტზე დაამატეთ სამი img ელემენტი, რომელთაც ამ ობიექტიდან მიაწვდით src ატრიბუტის მნიშვნელობებს. (მაგ. imgObj.img1). ფოტოებს მიეცით className და გასტილეთ css-ში. */}
+    {/* <div id='container'>
+      <img src={imgObj.img1} className='img1' />
+      <img src={imgObj.img2} className='img2' />
+      <img src={imgObj.img3} className='img3'/>
+    </div> */}
+    {/* 3) h1 თეგში ჩაწერეთ სიმბოლო π. მასზე მაუსის გადატარებისას π სიმბოლოს მაგივრად პის პირველი 10 ციფრი უნდა გამოჩნდეს. */}
+    {/* <h1 onMouseOver={onMouseOverFunc} onMouseOut={onMouseOutFunc}>π</h1> */}
+    {/* 4) შექმენით ობიექტი cardData, რომელშიც შეინახავთ ინფორმაციას პროდუქტის/ბარათის შესახებ: */}
+    {/* imgSrc – ფოტოს ლინკი */}
+    {/* title – სათაური */}
+    {/* description – მოკლე აღწერა */}
+    {/* JSX-ში გამოიყენეთ ეს ობიექტი და გამოიტანეთ ბარათი (<div> ელემენტი).img თეგს src და alt ატრიბუტები მიაწოდეთ ობიექტიდან (მაგ. cardData.imgSrc). ელემენტებს მიანიჭეთ className-ები და CSS-ში გასტილეთ. */}
+    <div className='card'>
+      <img src={cardData.imgSrc} className='img'/>
+      <h2>{cardData.title}</h2>
+      <p>{cardData.description}</p>
+    </div>
     </>
   )
 }
